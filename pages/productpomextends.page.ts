@@ -1,6 +1,5 @@
 import { Page } from '@playwright/test';
 import { loginpom } from './loginpom.page';
-import { test } from './test.page';
 export class productpom extends loginpom {
     constructor(p: Page) {
         super(p);
