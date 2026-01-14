@@ -10,8 +10,6 @@ export class loginpom {
 
     // Les sélecteurs
     elements = {
-
-
         username: () => this.page.locator("#user-name"),
         password: () => this.page.locator("#password"),
         login: () => this.page.locator("#login-button"),
